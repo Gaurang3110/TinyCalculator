@@ -119,7 +119,7 @@ int main(int argc, char** argv) {
 		cout << "------------------\n(h) For help\n(e) To exit\nEnter Your type: ";
 		cin >> type;
 		switch(type) {
-			case 'a':
+			case 'add':
 				parseAddition();
 			break;
 			case 'm':
